@@ -1,0 +1,31 @@
+.main {
+
+    background-color: black;
+}
+
+.mainFrame {
+
+    height: 200px;
+}
+
+.topBar {
+
+    height:100px;
+    background-color: darkolivegreen;
+}
+
+.sideBar {
+
+    width: 15%;
+    height: 100%;
+    background-color: green;
+    float: left;
+}
+
+.sectionMain {
+
+    height: 100%;
+    width:85%;
+    background-color: red;
+    float: left;
+}
