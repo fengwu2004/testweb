@@ -2,39 +2,39 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <link rel="stylesheet" type="text/css" href="hotPointManager.css">
-    <title>Title</title>
+    <link rel="stylesheet" type="text/css" href="hotPointCreate.css">
 </head>
 <body>
-<div id="main" class="main">
-    <div id="topBar" class="topBar"></div>
-    <div id="mainFrame" class="mainFrame">
-        <div id="sideBar" class="sideBar">
-            <aside>
-                <section>
-                    <ul id="sideul" class="sidebar-menu">
-                        <li>
-                            <a href="#">
-                                <span>创建热点 </span>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="#">
-                                <span>创建速度 </span>
-                            </a>
-                        </li>
-                    </ul>
-                </section>
-            </aside>
+    <div style="height: 80%;">
+        <div id="industy" class="industy">
+            <form style="font-size: 0.5rem">
+                <span>一级行业</span><input><br>
+                <span>二级行业</span><input><input><br>
+                <span>热点来源</span><input><br>
+                <span>热点名称</span><input><br>
+                <span>热点描述</span><input><br>
+                <span>优先级</span>关联公司<input><input><br>
+                <input><br>
+                <div style="border: 1px solid red;width: 80%">
+                    <span>规避人1</span><input><input><br>
+                    <span>规避人2</span><input><input><br>
+                    <span>规避人3</span><input><input><br>
+                </div>
+            </form>
         </div>
-        <div id="sectionMain" class="sectionMain">
-            <iframe src="http://www.baidu.com" scrolling="yes" marginheight="0" marginwidth="0" width="100%" frameborder="0" id="idframepage" height="100%">
-
-            </iframe>
+        <div id="profression" class="profression">
+            <form style="font-size: 0.5rem">
+                <p>专家推荐</p>
+                <span>公司</span><input><br>
+                <span>定位</span><input><br>
+                <span>上市公司匹配</span><input><br>
+                <span>部门</span><input><br>
+                <span>职位</span><input><br>
+                <span>姓名</span><input><br>
+                <span>是否Premium</span><input><br>
+                <span>简要介绍</span><input><br>
+            </form>
         </div>
     </div>
-</div>
 </body>
-<script type="text/javascript" src="jquery-3.2.1.js"></script>
-<script type="text/javascript" src="hotPointCreate.js"></script>
 </html>

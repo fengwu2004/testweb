@@ -1,0 +1,14 @@
+.industy {
+    background-color: chartreuse;
+    float: left;
+    width: 50%;
+    height:100%;
+    border: 0px solid blue;
+}
+
+.profression {
+    width:50%;
+    background-color: pink;
+    float: left;
+    height:100%;
+}
