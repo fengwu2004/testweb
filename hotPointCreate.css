@@ -1,5 +1,4 @@
 .industy {
-    background-color: chartreuse;
     float: left;
     width: 50%;
     height:100%;
@@ -11,4 +10,70 @@
     background-color: pink;
     float: left;
     height:100%;
+}
+
+.info label{
+
+    float: left;
+    width: 100px;
+    text-align: right;
+    line-height: 30px;
+    margin: 5px 0px;
+    padding: 0px 5px;
+}
+
+.info input {
+
+    line-height: 30px;
+    margin: 2px 10px;
+    padding:0px 5px;
+}
+
+.info div {
+
+    clear: left;
+}
+
+fieldset {
+
+    position: relative;
+    top: 10px;
+}
+
+fieldset {
+    padding:10px;
+    margin-top:5px;
+    border:1px solid #A4CDF2;
+    background:#fff;
+}
+
+fieldset label {
+
+    float: left;
+    width: 40px;
+    text-align: right;
+    line-height: 20px;
+    margin: 5px 0px;
+    padding: 0px 5px;
+}
+
+fieldset input {
+
+    line-height: 20px;
+    margin: 2px 10px;
+    width: 100px;
+    padding:0px 5px;
+}
+
+fieldset legend {
+    color:#1E7ACE;
+    font-weight:bold;
+    padding:3px 20px 3px 20px;
+    border:1px solid #A4CDF2;
+    background:#fff;
+}
+
+fieldset div {
+
+    clear: left;
 }

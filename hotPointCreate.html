@@ -4,22 +4,48 @@
     <meta charset="UTF-8">
     <link rel="stylesheet" type="text/css" href="hotPointCreate.css">
 </head>
-<body>
+<body style="font-family: sans-serif;">
     <div style="height: 80%;">
         <div id="industy" class="industy">
-            <form style="font-size: 0.5rem">
-                <span>一级行业</span><input><br>
-                <span>二级行业</span><input><input><br>
-                <span>热点来源</span><input><br>
-                <span>热点名称</span><input><br>
-                <span>热点描述</span><input><br>
-                <span>优先级</span>关联公司<input><input><br>
-                <input><br>
-                <div style="border: 1px solid red;width: 80%">
-                    <span>规避人1</span><input><input><br>
-                    <span>规避人2</span><input><input><br>
-                    <span>规避人3</span><input><input><br>
+            <form style="font-size: 0.5rem" id="form">
+                <div id="info" class="info">
+                    <div>
+                        <label>一级行业</label><input>
+                    </div>
+                    <div>
+                        <label>二级行业</label><input><input>
+                    </div>
+                    <div>
+                        <label>热点来源</label><input>
+                    </div>
+                    <div>
+                        <label>热点名称</label><input>
+                    </div>
+                    <div>
+                        <label>热点描述</label><input>
+                    </div>
+                    <div>
+                        <label>关联公司</label><input><input>
+                    </div>
+                    <div>
+                        <label>优先级</label><input>
+                    </div>
                 </div>
+                <fieldset style="clear:both;position: relative;left: 10%;width: 70%">
+                    <legend>规避人</legend>
+                    <div>
+                        <div>
+                            <label>规避人1</label><input><input>
+                        </div>
+                        <div>
+                            <label>规避人2</label><input><input>
+                        </div>
+                        <div>
+                            <label>规避人3</label><input><input>
+                        </div>
+                    </div>
+                </fieldset>
+                <div style="background-color: #1E7ACE; text-align: center; float: right;position: relative;right: 100px;top: 20px;line-height: 30px;width: 100px">创建</div>
             </form>
         </div>
         <div id="profression" class="profression">
@@ -33,6 +59,7 @@
                 <span>姓名</span><input><br>
                 <span>是否Premium</span><input><br>
                 <span>简要介绍</span><input><br>
+                <input type="submit" value="添加专家">
             </form>
         </div>
     </div>
