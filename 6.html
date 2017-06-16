@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style type="text/css">
+
+        #leftsq {
+
+            float: left;
+            width:  400px;
+            height: 400px;
+            background-color: green;
+            margin: 0 10px;
+            z-index: 0;
+            opacity: 0.5;
+        }
+
+        #leftsq::after {
+            content: "AKLCKDKD";
+            display: block;
+            clear: both;
+        }
+
+        .leftsq1 {
+
+            /*float: left;*/
+            /*clear: both;*/
+            width:  450px;
+            height: 110px;
+            background-color: red;
+            z-index: 999;
+        }
+
+        .rightsq {
+
+            /*float: right;*/
+            width:  100px;
+            height: 100px;
+            background-color: blue;
+            margin: 0 10px;
+            z-index: 999;
+        }
+
+    </style>
+</head>
+<body>
+<div style="width: 500px;">
+
+    <div id="leftsq">
+        <div class="leftsq1"></div>
+        <div class="leftsq1"></div>
+        <div class="leftsq1"></div>
+    </div>
+
+</div>
+</body>
+</html>

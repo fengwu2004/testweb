@@ -33,9 +33,9 @@
     clear: left;
 }
 
-fieldset {
+.fieldset {
 
-    position: relative;
+    /*position: relative;*/
     top: 10px;
 }
 
@@ -78,34 +78,20 @@ legend {
     clear: left;
 }
 
-.pro {
-
-    white-space: nowrap;
-    overflow: hidden;
-    overflow-x: scroll; /* 1 */
-}
-
 .proForm {
 
-    width: 50%;
-    display: inline-block;
-    background-color: #D0F0FF;
+    width: 15%;
+    padding: 16px 16px;
 }
 
 .proForm label {
 
     float: left;
-    width: 80px;
+    width: 100%;
     font-size: 0.5rem;
-    text-align: right;
+    text-align: left;
     margin: 0px 10px 0px 0px;
-    line-height: 36px;
-}
-
-.proForm input {
-
-    line-height: 24px;
-    margin:3px 5px;
+    line-height: 26px;
 }
 
 .proForm div {
@@ -116,4 +102,40 @@ legend {
 .proForm textarea {
 
     margin: 5px;
+}
+
+.pro {
+
+    width: 100%;
+
+    display:flex;
+}
+
+.card {
+
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 200px;
+    margin: auto;
+    text-align: center;
+    display: inline-block;
+    background-color: #D0F0FF;
+}
+
+.container {
+
+    padding: 16px 16px;
+}
+
+.cards {
+
+    width: 70%;
+    white-space: nowrap;
+    overflow-x: scroll;
+}
+
+.card label {
+
+    font-family: sans-serif;
+    font-size: 0.6rem;
+    line-height: 26px;
 }
