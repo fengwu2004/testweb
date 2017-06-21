@@ -1,16 +1,54 @@
 body {
 
-    background-color: white;
+    background-color: #444444;
 }
 
 #container {
 
+    position: relative;
+    top: 100px;
     width: 30%;
     margin: auto;
-    background-color: #A4CDF2;
+    border-radius: 4px;
+    background-color: white;
+}
+
+#container p {
+
+    text-align: center;
+    line-height: 2rem;
+    padding: 10px;
+}
+
+#container span {
+
+    /*min-width: 20px;*/
+    width: 5%;
+    text-align: right;
+    display: inline-block;
+    line-height: 1;
 }
 
 #container div {
 
+    margin: auto;
+}
 
+.submit {
+
+    position: relative;
+    width: 80%;
+    left:10%;
+    margin: 10px 0;
+    font-size: 0.8rem;
+    background-color: #1E7ACE;
+    display: inline-block;
+    border-radius: 4px;
+    border-width: 1px;
+}
+
+.textInput {
+
+    width: 60%;
+    margin: 5px 5%;
 }
