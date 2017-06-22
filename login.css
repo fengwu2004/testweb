@@ -1,14 +1,21 @@
 body {
 
+    position: absolute;
+    left: 0;
+    top:0;
+    width: 100%;
+    height: 100%;
     background-color: #444444;
 }
 
 #container {
 
-    position: relative;
-    top: 100px;
+    position: absolute;
+    top: 40%;
     width: 30%;
-    margin: auto;
+    max-width: 400px;
+    min-width: 250px;
+    /*margin: auto;*/
     border-radius: 4px;
     background-color: white;
 }
@@ -17,38 +24,40 @@ body {
 
     text-align: center;
     line-height: 2rem;
-    padding: 10px;
 }
 
-#container span {
+.inputGroup {
 
-    /*min-width: 20px;*/
-    width: 5%;
+    background-color: green;
+    height: 30px;
+    margin: 0 5% 10px;
+    font-size: 0.5rem;
+}
+
+.inputGroup label {
+
+    /*top: 0px;*/
+    height: 30px;
+    display: inline-block;
+    width: 25%;
+    background-color: red;
     text-align: right;
-    display: inline-block;
-    line-height: 1;
+    /*padding: 0 0.7em;*/
+    /*box-sizing: border-box;*/
+    /*border: 1px solid red;*/
+    font-size: 0.3rem;
+    /*line-height: 30px;*/
 }
 
-#container div {
+.inputGroup input {
 
-    margin: auto;
+    margin: 0 1%;
+    width: 70%;
+    box-sizing: border-box;
+    background-color: red;
+    border: 1px solid red;
+    padding: 0 0.7em;
+    line-height: 30px;
+    height: 30px;
 }
 
-.submit {
-
-    position: relative;
-    width: 80%;
-    left:10%;
-    margin: 10px 0;
-    font-size: 0.8rem;
-    background-color: #1E7ACE;
-    display: inline-block;
-    border-radius: 4px;
-    border-width: 1px;
-}
-
-.textInput {
-
-    width: 60%;
-    margin: 5px 5%;
-}

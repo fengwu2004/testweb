@@ -1,0 +1,62 @@
+div.table {
+
+    position: relative;
+    width: 80%;
+    margin: auto;
+    background-color: #1E7ACE;
+}
+
+div.cell {
+
+    position: relative;
+    height: 4rem;
+    border-radius: 10px;
+}
+
+div.cell #name {
+
+    position: absolute;
+    top: 20%;
+    left:10%;
+    font-size: 1.2rem;
+    font-weight:700;
+    color: white;
+}
+
+div.cell div.detail {
+
+    position: absolute;
+    left:10%;
+    bottom:10%;
+}
+
+div.cell #distance {
+
+    display: inline-block;
+    width: 30px;
+    font-size: 0.8rem;
+    vertical-align: middle;
+}
+
+div.cell #describe {
+
+    background-color: greenyellow;
+    padding: 0 5px;
+    border-radius: 2px;
+    display: inline-block;
+    font-size: 0.5rem;
+    vertical-align: middle;
+}
+
+div.navigate {
+
+    background-image: url("navigate.svg");
+    background-size: 1rem;
+    width: 1rem;
+    height:1rem;
+    position: absolute;
+    top: 0;
+    bottom:0;
+    margin: auto;
+    right: 10%;
+}
