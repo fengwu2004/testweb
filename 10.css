@@ -1,0 +1,25 @@
+body {
+
+    background-color: #1E7ACE;
+}
+
+div.floorsList {
+
+    width: 80%;
+    height: 6rem;
+    margin:auto;
+    background-color: white;
+    display: flex;
+}
+
+div.floorsList .floor {
+
+    flex: 1;
+    background-color: white;
+    text-align: center;
+}
+
+.borderzero {
+
+    border-right:0px solid white;
+}
