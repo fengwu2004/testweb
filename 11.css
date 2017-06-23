@@ -3,14 +3,23 @@ div.table {
     position: relative;
     width: 80%;
     margin: auto;
-    background-color: #1E7ACE;
+    top: 2rem;
+    /*background-color: lightgray;*/
+}
+
+body {
+
+    background-color: whitesmoke;
 }
 
 div.cell {
 
     position: relative;
     height: 4rem;
-    border-radius: 10px;
+    border-radius: 2px;
+    background-color: white;
+    margin:1rem 0;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
 }
 
 div.cell #name {
@@ -20,7 +29,6 @@ div.cell #name {
     left:10%;
     font-size: 1.2rem;
     font-weight:700;
-    color: white;
 }
 
 div.cell div.detail {
@@ -60,3 +68,55 @@ div.navigate {
     margin: auto;
     right: 10%;
 }
+
+/**/
+div.tableHeader {
+
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    width: 100%;
+    height: 10rem;
+    background-color: white;
+}
+
+div.centerInline {
+
+    width:90%;
+    position: relative;
+    margin: auto;
+    height: 2rem;
+    top:10%;
+}
+
+div.centerInline label {
+
+    display: inline-block;
+    position:absolute;
+    top: 0;
+    bottom:0;
+    margin: auto;
+}
+
+div.centerInline .sharp {
+
+    display: inline-block;
+    width: 5px;
+    height: 1.5rem;
+    background-color: #1E7ACE;
+}
+
+div.centerInline .title {
+
+    color: #1E7ACE;
+    font-size: 1.5rem;
+    left: 8%;
+}
+
+div.centerInline .update {
+
+    background-image: url("u348.svg");
+    background-size: 1.5rem;
+    width: 1.5rem;
+    height: 1.5rem;
+    right: 0;
+}
+
