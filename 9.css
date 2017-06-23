@@ -1,0 +1,57 @@
+div.bg {
+
+    width: 60%;
+    height: 10rem;
+    margin:10px auto;
+    background-color: greenyellow;
+    position: relative;
+}
+
+div.bg div {
+
+    width: 50%;
+    height: 2rem;
+    /*position: absolute;*/
+    top: 0;bottom: 0;
+    float: left;
+    margin: auto;
+    background-color: red;
+    line-height: 2rem;
+    z-index: 100;
+}
+
+div.bg input {
+
+    width: 50%;
+    position: absolute;
+    top: 0;bottom: 0;
+    margin: auto;
+    right:0;
+    float: right;
+}
+
+.xxx {
+
+    width: 60%;
+    height: 1.5rem;
+    margin:10px auto;
+    background-color: greenyellow;
+    position: relative;
+}
+
+.xxx .spec {
+
+    position: absolute;
+    top: 0;bottom: 0;
+    margin: auto;
+    line-height: 1.5rem;
+    font-size: 0.5rem;
+}
+
+.xxx input {
+
+    position: absolute;
+    top: 0;bottom: 0;
+    margin: auto;
+    left:40px;
+}

@@ -1,63 +1,81 @@
 body {
 
-    position: absolute;
-    left: 0;
-    top:0;
-    width: 100%;
-    height: 100%;
-    background-color: #444444;
+    background-color: #D0F0FF;
 }
 
-#container {
+div.container {
 
-    position: absolute;
-    top: 40%;
-    width: 30%;
-    max-width: 400px;
-    min-width: 250px;
-    /*margin: auto;*/
-    border-radius: 4px;
+    position: relative;
+    top:5rem;
+    width: 60%;
+    max-width: 30rem;
+    margin:auto;
+    max-width: 300px;
     background-color: white;
 }
 
-#container p {
+div.title {
 
+    width: 100%;
+    margin: auto;
     text-align: center;
-    line-height: 2rem;
+    padding: 1rem 0;
 }
 
-.inputGroup {
+div.inputGroup {
 
-    background-color: green;
-    height: 30px;
-    margin: 0 5% 10px;
-    font-size: 0.5rem;
+    position: relative;
+    width: 90%;
+    margin: 10px auto;
+    height: 1.5rem;
+    background-color: greenyellow;
 }
 
-.inputGroup label {
+div.inputGroup input {
 
-    /*top: 0px;*/
-    height: 30px;
-    display: inline-block;
-    width: 25%;
-    background-color: red;
+    width: 65%;
+    right: 0;
+    padding-left: 5%;
+    border-radius: 3px;
+    border: 1px solid #ddd;
+}
+
+div.inputGroup label {
+
+    height: 1rem;
+    line-height: 1rem;
+    font-size: 0.8rem;
+    font-weight:300;
+    width: 20%;
     text-align: right;
-    /*padding: 0 0.7em;*/
-    /*box-sizing: border-box;*/
-    /*border: 1px solid red;*/
-    font-size: 0.3rem;
-    /*line-height: 30px;*/
 }
 
-.inputGroup input {
+.absvertical {
 
-    margin: 0 1%;
-    width: 70%;
-    box-sizing: border-box;
-    background-color: red;
-    border: 1px solid red;
-    padding: 0 0.7em;
-    line-height: 30px;
-    height: 30px;
+    position: absolute;
+    margin: auto;
+    top: 0; bottom: 0;
 }
 
+div.inputGroup div {
+
+    /*left:0;*/
+    height: 1em;
+    /*font-size: 12px;*/
+}
+
+div.submit {
+
+    position: relative;
+    width: 90%;
+    margin: 10px auto 10px;
+    padding: 0 5% 1rem 5%;
+}
+
+div.submit input {
+
+    width: 100%;
+    height: 2rem;
+    border: 1px solid #ddd;
+    /*background-color: red;*/
+}
