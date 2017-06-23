@@ -1,12 +1,14 @@
 body {
 
     background-color: whitesmoke;
+    margin: 0;
 }
 
 div.buildingInfo {
 
-    background-image: url("u2.png");
+    background: url("u2.png") no-repeat;
     height: 14rem;
+    background-size: 100% 100%;
 }
 
 .buildingInfo .buildingName {
@@ -22,7 +24,7 @@ div.buildingInfo {
 div.table {
 
     position: relative;
-    width: 80%;
+    width: 90%;
     margin: auto;
     top: -8rem;
     /*background-color: lightgray;*/

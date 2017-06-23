@@ -1,11 +1,12 @@
 body {
 
     background-color: #1E7ACE;
+    margin: 0;
 }
 
 div.floorsList {
 
-    width: 80%;
+    width: 100%;
     height: 6rem;
     margin:auto;
     background-color: white;
