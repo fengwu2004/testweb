@@ -1,15 +1,31 @@
+body {
+
+    background-color: whitesmoke;
+}
+
+div.buildingInfo {
+
+    background-image: url("u2.png");
+    height: 14rem;
+}
+
+.buildingInfo .buildingName {
+
+    position: relative;
+    width: 76%;
+    margin: auto;
+    top:1.5rem;
+    font-size: 2rem;
+    color: white;
+}
+
 div.table {
 
     position: relative;
     width: 80%;
     margin: auto;
-    top: 2rem;
+    top: -8rem;
     /*background-color: lightgray;*/
-}
-
-body {
-
-    background-color: whitesmoke;
 }
 
 div.cell {
