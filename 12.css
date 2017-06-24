@@ -1,0 +1,85 @@
+div.searchbg {
+
+    width:100%;
+    /*height: 200px;*/
+    background-color: #D0F0FF;
+    position: relative;
+    display: table;
+}
+
+div.line {
+
+    min-width: 500px;
+    width: 60%;
+    height: 1.5rem;
+    margin: auto 5px;
+}
+
+div.line > label {
+
+    display: inline-block;
+    width: 3rem;
+    height: 100%;
+    line-height: 1.5rem;
+    vertical-align: middle;
+    margin: 0 5px;
+    font-size: 0.5rem;
+}
+
+div.line > select {
+
+    width: 6rem;
+    vertical-align: middle;
+    margin: 0 5px;
+}
+
+select.date {
+
+    max-width: 5rem;
+}
+
+div.searchBtn {
+
+    background-color: deepskyblue;
+    width: 3rem;
+    height: 3rem;
+    line-height: 3rem;
+    text-align: center;
+    border-radius: 3px;
+}
+
+div.searchresult {
+
+    width: 60%;
+    height: 32rem;
+    margin-top: 10px;
+    background-color: #D0F0FF;
+    float: left;
+    position: relative;
+}
+
+table {
+
+    width: 100%;
+    border-collapse:collapse;
+    /*border: 1px solid black;*/
+    /*table-layout: fixed;*/
+}
+
+th, td {
+
+    font-size: 0.5rem;
+    text-align: center;
+    line-height: 2rem;
+    border: 1px solid lightgray;
+}
+
+div.autostatistics {
+
+    position: relative;
+    width: 38%;
+    height: 32rem;
+    float: right;
+    margin-top: 10px;
+    background-color: #D0F0FF;
+}

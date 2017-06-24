@@ -1,0 +1,26 @@
+div.searchpanelbg {
+
+    width: 100%;
+}
+
+div.searchpanelbg label {
+
+    vertical-align: middle;
+
+    height: 30px;
+
+    text-align: left;
+
+    width: 5rem;
+
+    display: inline-block;
+}
+
+div.searchpanelbg select {
+
+    width: 10rem;
+
+    vertical-align: middle;
+
+    margin: 0 10px;
+}
