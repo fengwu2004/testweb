@@ -5,9 +5,12 @@
     border: 0px solid blue;
 }
 
-.profression {
+div.profression {
+
     width:50%;
+
     float: left;
+
     height:100%;
 }
 
@@ -118,7 +121,8 @@ legend {
     margin: auto;
     text-align: center;
     display: inline-block;
-    background-color: #D0F0FF;
+    border: 1px solid #1E7ACE;
+    /*background-color: #D0F0FF;*/
 }
 
 .container {

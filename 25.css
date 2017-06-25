@@ -1,0 +1,25 @@
+div.container {
+
+    background-color: #D0F0FF;
+    height: 200px;
+}
+
+div.container label {
+
+    position: relative;
+    display: inline-block;
+    /*background-color: red;*/
+    height: 100px;
+    width: 200px;
+    float: left;
+    line-height: 100px;
+}
+
+div.container textarea {
+
+    /*background-color: green;*/
+    width: 300px;
+    height: 98px;
+    /*border: 0;*/
+    padding: 0;
+}

@@ -1,0 +1,27 @@
+.bg {
+
+    background-color: deepskyblue;
+    width:1000px;
+    margin: auto;
+}
+
+.bg > label {
+
+    width: 100px;
+    height: 20px;
+    line-height: 20px;
+    float: left;
+    clear: left;
+    /*background-color: red;*/
+}
+
+.bg > input {
+
+    width: 200px;
+    height: 20px;
+    line-height: 20px;
+    float: left;
+    /*background-color: #2e6da4;*/
+    border: 1px solid #dddddd;
+    padding: 0;
+}
